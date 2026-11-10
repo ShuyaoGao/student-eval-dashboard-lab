@@ -1,0 +1,589 @@
+{
+ "SYNTHETIC": "【合成数据】本结果全部来自 p9/synth.py 按固定种子生成的虚构学校数据，不是任何真实学生的数据；指标只说明方法在已知生成机制下的表现，不能当作真实场景的准确率引用。",
+ "run_id": "2026-10-14",
+ "seed": 20261014,
+ "data": {
+  "n_students": 486,
+  "n_classes": 12,
+  "n_kt_responses": 34162,
+  "kt_split": {
+   "train": 266,
+   "val": 47,
+   "test": 134,
+   "focal_class_heldout": 39
+  },
+  "generator": "带个体差异的 BKT 生成机制（见 p9/synth.py 文件头），BKT 与生成机制同族，AUC 偏乐观"
+ },
+ "kt": {
+  "auc": {
+   "baseline": {
+    "value": 0.5228,
+    "ci_low": 0.5009,
+    "ci_high": 0.5418,
+    "n_responses": 9554,
+    "n_students": 134,
+    "bootstrap_B": 300
+   },
+   "pfa": {
+    "value": 0.7911,
+    "ci_low": 0.7799,
+    "ci_high": 0.8022,
+    "n_responses": 9554,
+    "n_students": 134,
+    "bootstrap_B": 300
+   },
+   "bkt": {
+    "value": 0.8014,
+    "ci_low": 0.7883,
+    "ci_high": 0.8126,
+    "n_responses": 9554,
+    "n_students": 134,
+    "bootstrap_B": 300
+   },
+   "dkt": {
+    "value": 0.7745,
+    "ci_low": 0.7594,
+    "ci_high": 0.7878,
+    "n_responses": 9554,
+    "n_students": 134,
+    "bootstrap_B": 300
+   },
+   "oracle": {
+    "value": 0.8667,
+    "ci_low": 0.8555,
+    "ci_high": 0.8774,
+    "n_responses": 9554,
+    "n_students": 134,
+    "bootstrap_B": 300
+   }
+  },
+  "fairness": {
+   "female": {
+    "n_students": 67,
+    "bkt": 0.8038,
+    "dkt": 0.7739
+   },
+   "male": {
+    "n_students": 67,
+    "bkt": 0.7989,
+    "dkt": 0.7742
+   },
+   "left_behind": {
+    "n_students": 35,
+    "bkt": 0.795,
+    "dkt": 0.763
+   },
+   "not_left_behind": {
+    "n_students": 99,
+    "bkt": 0.8031,
+    "dkt": 0.7778
+   }
+  },
+  "bkt_params": {
+   "num": {
+    "L0": 0.5099,
+    "T": 0.0894,
+    "G": 0.1827,
+    "S": 0.0942
+   },
+   "eq": {
+    "L0": 0.4529,
+    "T": 0.1156,
+    "G": 0.236,
+    "S": 0.1156
+   },
+   "func": {
+    "L0": 0.3162,
+    "T": 0.115,
+    "G": 0.2422,
+    "S": 0.0919
+   },
+   "geo": {
+    "L0": 0.343,
+    "T": 0.1175,
+    "G": 0.2192,
+    "S": 0.0796
+   },
+   "trans": {
+    "L0": 0.4672,
+    "T": 0.1075,
+    "G": 0.2015,
+    "S": 0.1172
+   },
+   "stat": {
+    "L0": 0.4081,
+    "T": 0.1149,
+    "G": 0.1624,
+    "S": 0.0896
+   }
+  },
+  "dkt": {
+   "arch": "输入 12（6 知识点 × 对/错 one-hot）→ tanh RNN 隐藏 32 → 输出 6（sigmoid）",
+   "n_params": 1638,
+   "best_epoch": 23,
+   "best_val_auc": 0.765,
+   "history": [
+    {
+     "epoch": 1,
+     "train_loss": 0.63846,
+     "val_auc": 0.6792
+    },
+    {
+     "epoch": 2,
+     "train_loss": 0.55556,
+     "val_auc": 0.7147
+    },
+    {
+     "epoch": 3,
+     "train_loss": 0.539,
+     "val_auc": 0.7164
+    },
+    {
+     "epoch": 4,
+     "train_loss": 0.53193,
+     "val_auc": 0.7269
+    },
+    {
+     "epoch": 5,
+     "train_loss": 0.52584,
+     "val_auc": 0.7301
+    },
+    {
+     "epoch": 6,
+     "train_loss": 0.51995,
+     "val_auc": 0.7467
+    },
+    {
+     "epoch": 7,
+     "train_loss": 0.51303,
+     "val_auc": 0.7454
+    },
+    {
+     "epoch": 8,
+     "train_loss": 0.51039,
+     "val_auc": 0.754
+    },
+    {
+     "epoch": 9,
+     "train_loss": 0.50779,
+     "val_auc": 0.7469
+    },
+    {
+     "epoch": 10,
+     "train_loss": 0.50495,
+     "val_auc": 0.7469
+    },
+    {
+     "epoch": 11,
+     "train_loss": 0.50316,
+     "val_auc": 0.757
+    },
+    {
+     "epoch": 12,
+     "train_loss": 0.49788,
+     "val_auc": 0.7546
+    },
+    {
+     "epoch": 13,
+     "train_loss": 0.49739,
+     "val_auc": 0.7507
+    },
+    {
+     "epoch": 14,
+     "train_loss": 0.49864,
+     "val_auc": 0.7577
+    },
+    {
+     "epoch": 15,
+     "train_loss": 0.49321,
+     "val_auc": 0.7514
+    },
+    {
+     "epoch": 16,
+     "train_loss": 0.49762,
+     "val_auc": 0.7585
+    },
+    {
+     "epoch": 17,
+     "train_loss": 0.49684,
+     "val_auc": 0.7421
+    },
+    {
+     "epoch": 18,
+     "train_loss": 0.50278,
+     "val_auc": 0.7522
+    },
+    {
+     "epoch": 19,
+     "train_loss": 0.5001,
+     "val_auc": 0.7501
+    },
+    {
+     "epoch": 20,
+     "train_loss": 0.49585,
+     "val_auc": 0.7526
+    },
+    {
+     "epoch": 21,
+     "train_loss": 0.49188,
+     "val_auc": 0.7585
+    },
+    {
+     "epoch": 22,
+     "train_loss": 0.49051,
+     "val_auc": 0.7588
+    },
+    {
+     "epoch": 23,
+     "train_loss": 0.48536,
+     "val_auc": 0.765
+    },
+    {
+     "epoch": 24,
+     "train_loss": 0.48811,
+     "val_auc": 0.7489
+    },
+    {
+     "epoch": 25,
+     "train_loss": 0.48969,
+     "val_auc": 0.7572
+    },
+    {
+     "epoch": 26,
+     "train_loss": 0.49351,
+     "val_auc": 0.7463
+    },
+    {
+     "epoch": 27,
+     "train_loss": 0.49264,
+     "val_auc": 0.741
+    },
+    {
+     "epoch": 28,
+     "train_loss": 0.50116,
+     "val_auc": 0.7481
+    },
+    {
+     "epoch": 29,
+     "train_loss": 0.50078,
+     "val_auc": 0.7299
+    },
+    {
+     "epoch": 30,
+     "train_loss": 0.50627,
+     "val_auc": 0.744
+    },
+    {
+     "epoch": 31,
+     "train_loss": 0.49776,
+     "val_auc": 0.7458
+    },
+    {
+     "epoch": 32,
+     "train_loss": 0.49361,
+     "val_auc": 0.7561
+    },
+    {
+     "epoch": 33,
+     "train_loss": 0.48945,
+     "val_auc": 0.7485
+    },
+    {
+     "epoch": 34,
+     "train_loss": 0.48763,
+     "val_auc": 0.7554
+    },
+    {
+     "epoch": 35,
+     "train_loss": 0.48985,
+     "val_auc": 0.7608
+    },
+    {
+     "epoch": 36,
+     "train_loss": 0.48831,
+     "val_auc": 0.7555
+    },
+    {
+     "epoch": 37,
+     "train_loss": 0.48569,
+     "val_auc": 0.7577
+    },
+    {
+     "epoch": 38,
+     "train_loss": 0.48336,
+     "val_auc": 0.7571
+    },
+    {
+     "epoch": 39,
+     "train_loss": 0.48226,
+     "val_auc": 0.7558
+    },
+    {
+     "epoch": 40,
+     "train_loss": 0.48944,
+     "val_auc": 0.7547
+    }
+   ]
+  },
+  "seconds": {
+   "bkt": 1.75,
+   "pfa": 0.03,
+   "dkt": 1.56
+  }
+ },
+ "cdm": {
+  "n_students": 486,
+  "n_items": 24,
+  "n_attributes": 6,
+  "iterations": 27,
+  "attribute_accuracy": {
+   "num": 0.963,
+   "eq": 0.973,
+   "func": 0.986,
+   "geo": 0.963,
+   "trans": 0.981,
+   "stat": 0.973
+  },
+  "attribute_accuracy_mean": 0.973,
+  "pattern_accuracy": 0.874,
+  "slip_rmse": 0.0197,
+  "guess_rmse": 0.0264,
+  "agreement_with_bkt": {
+   "num": 0.909,
+   "eq": 0.887,
+   "func": 0.92,
+   "geo": 0.895,
+   "trans": 0.936,
+   "stat": 0.924
+  },
+  "agreement_with_bkt_mean": 0.912,
+  "seconds": 0.01
+ },
+ "irt": {
+  "n_items": 120,
+  "n_calibration_examinees": 2086,
+  "responses_per_examinee": 40,
+  "corr_a": 0.925,
+  "corr_b": 0.993,
+  "rmse_b": 0.141,
+  "iterations": 57,
+  "seconds": 0.84
+ },
+ "cat": {
+  "maxinfo": {
+   "rmse_by_step": [
+    0.7733,
+    0.6438,
+    0.568,
+    0.5149,
+    0.4761,
+    0.444,
+    0.4211,
+    0.4066,
+    0.3938,
+    0.3867
+   ],
+   "mean_psd_by_step": [
+    0.7489,
+    0.634,
+    0.5553,
+    0.5025,
+    0.4628,
+    0.435,
+    0.4134,
+    0.3956,
+    0.3812,
+    0.3683
+   ],
+   "bias_final": -0.0073,
+   "coverage95_final": 0.939,
+   "corr_final": 0.9243
+  },
+  "random": {
+   "rmse_by_step": [
+    0.9226,
+    0.8421,
+    0.7823,
+    0.7369,
+    0.6905,
+    0.6598,
+    0.629,
+    0.6028,
+    0.5822,
+    0.5527
+   ],
+   "mean_psd_by_step": [
+    0.9045,
+    0.8327,
+    0.7753,
+    0.7281,
+    0.6887,
+    0.6551,
+    0.6248,
+    0.5978,
+    0.5757,
+    0.5555
+   ],
+   "bias_final": -0.02,
+   "coverage95_final": 0.958,
+   "corr_final": 0.8382
+  },
+  "n_sim": 1000,
+  "n_items": 10
+ },
+ "psych": {
+  "school": {
+   "label": "星海实验中学（虚构）",
+   "n": 486,
+   "suppressed": false,
+   "depression": {
+    "expected_rate": 0.246,
+    "ci": [
+     0.226,
+     0.267
+    ],
+    "expected_count": [
+     109,
+     130
+    ]
+   },
+   "anxiety": {
+    "expected_rate": 0.275,
+    "ci": [
+     0.242,
+     0.315
+    ],
+    "expected_count": [
+     117,
+     154
+    ]
+   },
+   "factors": {
+    "left_behind": 0.224,
+    "left_behind_both": 0.093,
+    "boarding": 0.313,
+    "sleep_short": 0.714,
+    "ses_low": 0.243,
+    "bullied": 0.191,
+    "pa_low": 0.469
+   },
+   "attention_share": 0.202
+  },
+  "by_grade": [
+   {
+    "label": "初一",
+    "n": 163,
+    "suppressed": false,
+    "depression": {
+     "expected_rate": 0.234,
+     "ci": [
+      0.209,
+      0.258
+     ],
+     "expected_count": [
+      34,
+      43
+     ]
+    },
+    "anxiety": {
+     "expected_rate": 0.236,
+     "ci": [
+      0.2,
+      0.279
+     ],
+     "expected_count": [
+      32,
+      46
+     ]
+    },
+    "factors": {
+     "left_behind": 0.209,
+     "left_behind_both": 0.055,
+     "boarding": 0.35,
+     "sleep_short": 0.767,
+     "ses_low": 0.239,
+     "bullied": 0.19,
+     "pa_low": 0.46
+    },
+    "attention_share": 0.184
+   },
+   {
+    "label": "初二",
+    "n": 159,
+    "suppressed": false,
+    "depression": {
+     "expected_rate": 0.242,
+     "ci": [
+      0.216,
+      0.267
+     ],
+     "expected_count": [
+      34,
+      43
+     ]
+    },
+    "anxiety": {
+     "expected_rate": 0.242,
+     "ci": [
+      0.206,
+      0.286
+     ],
+     "expected_count": [
+      32,
+      46
+     ]
+    },
+    "factors": {
+     "left_behind": 0.239,
+     "left_behind_both": 0.138,
+     "boarding": 0.321,
+     "sleep_short": 0.686,
+     "ses_low": 0.314,
+     "bullied": 0.201,
+     "pa_low": 0.522
+    },
+    "attention_share": 0.182
+   },
+   {
+    "label": "初三",
+    "n": 164,
+    "suppressed": false,
+    "depression": {
+     "expected_rate": 0.263,
+     "ci": [
+      0.231,
+      0.299
+     ],
+     "expected_count": [
+      37,
+      49
+     ]
+    },
+    "anxiety": {
+     "expected_rate": 0.346,
+     "ci": [
+      0.292,
+      0.407
+     ],
+     "expected_count": [
+      47,
+      67
+     ]
+    },
+    "factors": {
+     "left_behind": 0.226,
+     "left_behind_both": 0.085,
+     "boarding": 0.268,
+     "sleep_short": 0.689,
+     "ses_low": 0.177,
+     "bullied": 0.183,
+     "pa_low": 0.427
+    },
+    "attention_share": 0.238
+   }
+  ],
+  "attention_rule": "按 p3 风险计算器的抑郁相对风险（点估计），全校最高的 20% 标为“建议关注”",
+  "attention_cut_rr": 1.435
+ },
+ "seconds_total": 7.9
+}

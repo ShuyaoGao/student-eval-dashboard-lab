@@ -1,0 +1,139 @@
+{
+ "checked_at": "2026-10-14",
+ "method": "下载官方文本，去标签、统一空白后检查摘录是否原样出现",
+ "source_errors": {},
+ "clauses": {
+  "aia_5_1_f": {
+   "verified": true,
+   "quote_found": true,
+   "anchor_found": true,
+   "source": "eu_ai_act"
+  },
+  "aia_5_1_g": {
+   "verified": true,
+   "quote_found": true,
+   "anchor_found": true,
+   "source": "eu_ai_act"
+  },
+  "aia_rec_44": {
+   "verified": true,
+   "quote_found": true,
+   "anchor_found": true,
+   "source": "eu_ai_act"
+  },
+  "aia_3_39": {
+   "verified": true,
+   "quote_found": true,
+   "anchor_found": true,
+   "source": "eu_ai_act"
+  },
+  "aia_113_a": {
+   "verified": true,
+   "quote_found": true,
+   "anchor_found": true,
+   "source": "eu_ai_act"
+  },
+  "aia_annex3_3": {
+   "verified": true,
+   "quote_found": true,
+   "anchor_found": true,
+   "source": "eu_ai_act"
+  },
+  "omnibus_113_c": {
+   "verified": true,
+   "quote_found": true,
+   "anchor_found": null,
+   "source": "eu_omnibus"
+  },
+  "gdpr_9_1": {
+   "verified": true,
+   "quote_found": true,
+   "anchor_found": true,
+   "source": "gdpr"
+  },
+  "pipl_28": {
+   "verified": true,
+   "quote_found": true,
+   "anchor_found": true,
+   "source": "pipl"
+  },
+  "pipl_28_2": {
+   "verified": true,
+   "quote_found": true,
+   "anchor_found": true,
+   "source": "pipl"
+  },
+  "pipl_29": {
+   "verified": true,
+   "quote_found": true,
+   "anchor_found": true,
+   "source": "pipl"
+  },
+  "pipl_31": {
+   "verified": true,
+   "quote_found": true,
+   "anchor_found": true,
+   "source": "pipl"
+  },
+  "pipl_24": {
+   "verified": true,
+   "quote_found": true,
+   "anchor_found": true,
+   "source": "pipl"
+  },
+  "pipl_26": {
+   "verified": true,
+   "quote_found": true,
+   "anchor_found": true,
+   "source": "pipl"
+  },
+  "pipl_55": {
+   "verified": true,
+   "quote_found": true,
+   "anchor_found": true,
+   "source": "pipl"
+  },
+  "face_7": {
+   "verified": true,
+   "quote_found": true,
+   "anchor_found": true,
+   "source": "face_rules"
+  },
+  "face_10": {
+   "verified": true,
+   "quote_found": true,
+   "anchor_found": true,
+   "source": "face_rules"
+  },
+  "minor_32": {
+   "verified": true,
+   "quote_found": true,
+   "anchor_found": true,
+   "source": "minor_online"
+  },
+  "minor_37": {
+   "verified": true,
+   "quote_found": true,
+   "anchor_found": true,
+   "source": "minor_online"
+  },
+  "child_9": {
+   "verified": true,
+   "quote_found": true,
+   "anchor_found": true,
+   "source": "child_info"
+  },
+  "moe_6": {
+   "verified": true,
+   "quote_found": true,
+   "anchor_found": null,
+   "source": "moe_apps"
+  },
+  "school_10": {
+   "verified": true,
+   "quote_found": true,
+   "anchor_found": true,
+   "source": "school_protect"
+  }
+ }
+}

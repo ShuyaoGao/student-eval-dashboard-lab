@@ -1,0 +1,922 @@
+{
+ "checked_at": "2026-10-14",
+ "method": "Crossref /works/{doi}；arXiv export API；Semantic Scholar graph API（会议名）。标题相似度 ≥0.85 记为已核实。",
+ "refs": {
+  "bkt": {
+   "want_title": "Knowledge tracing: Modeling the acquisition of procedural knowledge",
+   "checks": [
+    {
+     "source": "crossref",
+     "title": "Knowledge tracing: Modeling the acquisition of procedural knowledge",
+     "authors": [
+      "Corbett A",
+      "Anderson J"
+     ],
+     "year": 1995,
+     "venue": "User Modelling and User-Adapted Interaction",
+     "volume": "4",
+     "issue": "4",
+     "pages": "253-278",
+     "url": "https://doi.org/10.1007/BF01099821",
+     "title_similarity": 1.0,
+     "ok": true
+    }
+   ],
+   "verified": true,
+   "display": {
+    "authors": [
+     "Corbett A",
+     "Anderson J"
+    ],
+    "year": 1995,
+    "venue": "User Modelling and User-Adapted Interaction",
+    "url": "https://doi.org/10.1007/BF01099821",
+    "title": "Knowledge tracing: Modeling the acquisition of procedural knowledge",
+    "links": [
+     "https://doi.org/10.1007/BF01099821"
+    ]
+   }
+  },
+  "dkt": {
+   "want_title": "Deep Knowledge Tracing",
+   "checks": [
+    {
+     "source": "arxiv",
+     "title": "Deep Knowledge Tracing",
+     "authors": [
+      "Piech C",
+      "Spencer J",
+      "Huang J",
+      "Ganguli S",
+      "Sahami M",
+      "Guibas L",
+      "Sohl-Dickstein J"
+     ],
+     "year": 2015,
+     "journal_ref": "",
+     "comment": "",
+     "url": "https://arxiv.org/abs/1506.05908",
+     "title_similarity": 1.0,
+     "ok": true
+    },
+    {
+     "source": "semantic_scholar",
+     "title": "Deep Knowledge Tracing",
+     "venue": "Neural Information Processing Systems",
+     "year": 2015,
+     "authors": [
+      "Piech C",
+      "Spencer J",
+      "Huang J",
+      "Ganguli S",
+      "Sahami M",
+      "Guibas L",
+      "Sohl-Dickstein J"
+     ],
+     "url": "https://www.semanticscholar.org/paper/fa98d609eb14ce25dd73cd8713a5e284948b4ff4",
+     "title_similarity": 1.0,
+     "ok": true
+    }
+   ],
+   "verified": true,
+   "display": {
+    "authors": [
+     "Piech C",
+     "Spencer J",
+     "Huang J",
+     "Ganguli S",
+     "Sahami M",
+     "Guibas L",
+     "Sohl-Dickstein J"
+    ],
+    "year": 2015,
+    "venue": "Neural Information Processing Systems",
+    "url": "https://www.semanticscholar.org/paper/fa98d609eb14ce25dd73cd8713a5e284948b4ff4",
+    "title": "Deep Knowledge Tracing",
+    "links": [
+     "https://arxiv.org/abs/1506.05908",
+     "https://www.semanticscholar.org/paper/fa98d609eb14ce25dd73cd8713a5e284948b4ff4"
+    ]
+   }
+  },
+  "sakt": {
+   "want_title": "A Self-Attentive model for Knowledge Tracing",
+   "checks": [
+    {
+     "source": "arxiv",
+     "title": "A Self-Attentive model for Knowledge Tracing",
+     "authors": [
+      "Pandey S",
+      "Karypis G"
+     ],
+     "year": 2019,
+     "journal_ref": "",
+     "comment": "International Conference on Education Data Mining",
+     "url": "https://arxiv.org/abs/1907.06837",
+     "title_similarity": 1.0,
+     "ok": true
+    },
+    {
+     "source": "semantic_scholar",
+     "title": "A Self Attentive model for Knowledge Tracing",
+     "venue": "Educational Data Mining",
+     "year": 2019,
+     "authors": [
+      "Pandey S",
+      "Karypis G"
+     ],
+     "url": "https://www.semanticscholar.org/paper/0abdc7c7c6950a4a5bc6c93cf78d320d6c969152",
+     "title_similarity": 1.0,
+     "ok": true
+    }
+   ],
+   "verified": true,
+   "display": {
+    "authors": [
+     "Pandey S",
+     "Karypis G"
+    ],
+    "year": 2019,
+    "venue": "Educational Data Mining",
+    "url": "https://www.semanticscholar.org/paper/0abdc7c7c6950a4a5bc6c93cf78d320d6c969152",
+    "title": "A Self Attentive model for Knowledge Tracing",
+    "links": [
+     "https://arxiv.org/abs/1907.06837",
+     "https://www.semanticscholar.org/paper/0abdc7c7c6950a4a5bc6c93cf78d320d6c969152"
+    ]
+   }
+  },
+  "akt": {
+   "want_title": "Context-Aware Attentive Knowledge Tracing",
+   "checks": [
+    {
+     "source": "crossref",
+     "title": "Context-Aware Attentive Knowledge Tracing",
+     "authors": [
+      "Ghosh A",
+      "Heffernan N",
+      "Lan A"
+     ],
+     "year": 2020,
+     "venue": "Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery &amp; Data Mining",
+     "volume": null,
+     "issue": null,
+     "pages": "2330-2339",
+     "url": "https://doi.org/10.1145/3394486.3403282",
+     "title_similarity": 1.0,
+     "ok": true
+    },
+    {
+     "source": "arxiv",
+     "title": "Context-Aware Attentive Knowledge Tracing",
+     "authors": [
+      "Ghosh A",
+      "Heffernan N",
+      "Lan A"
+     ],
+     "year": 2020,
+     "journal_ref": "",
+     "comment": "Published in KDD 2020",
+     "url": "https://arxiv.org/abs/2007.12324",
+     "title_similarity": 1.0,
+     "ok": true
+    }
+   ],
+   "verified": true,
+   "display": {
+    "authors": [
+     "Ghosh A",
+     "Heffernan N",
+     "Lan A"
+    ],
+    "year": 2020,
+    "venue": "Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery &amp; Data Mining",
+    "url": "https://doi.org/10.1145/3394486.3403282",
+    "title": "Context-Aware Attentive Knowledge Tracing",
+    "links": [
+     "https://doi.org/10.1145/3394486.3403282",
+     "https://arxiv.org/abs/2007.12324"
+    ]
+   }
+  },
+  "pfa": {
+   "want_title": "Performance Factors Analysis - A New Alternative to Knowledge Tracing",
+   "checks": [
+    {
+     "source": "crossref",
+     "title": "Performance Factors Analysis &amp;ndash; A New Alternative to Knowledge Tracing",
+     "authors": [
+      "Pavlik Philip I.",
+      "Cen Hao",
+      "Koedinger Kenneth R."
+     ],
+     "year": 2009,
+     "venue": "Frontiers in Artificial Intelligence and Applications",
+     "volume": null,
+     "issue": null,
+     "pages": null,
+     "url": "https://doi.org/10.3233/978-1-60750-028-5-531",
+     "title_similarity": 0.931,
+     "ok": true
+    },
+    {
+     "source": "semantic_scholar",
+     "title": "Performance Factors Analysis - A New Alternative to Knowledge Tracing",
+     "venue": "International Conference on Artificial Intelligence in Education",
+     "year": 2009,
+     "authors": [
+      "Pavlik P",
+      "Cen H",
+      "Koedinger K"
+     ],
+     "url": "https://www.semanticscholar.org/paper/9588acb2634d7a19124d6012e0b4f1ea1c9736ea",
+     "title_similarity": 1.0,
+     "ok": true
+    }
+   ],
+   "verified": true,
+   "display": {
+    "authors": [
+     "Pavlik Philip I.",
+     "Cen Hao",
+     "Koedinger Kenneth R."
+    ],
+    "year": 2009,
+    "venue": "Frontiers in Artificial Intelligence and Applications",
+    "url": "https://doi.org/10.3233/978-1-60750-028-5-531",
+    "title": "Performance Factors Analysis &amp;ndash; A New Alternative to Knowledge Tracing",
+    "links": [
+     "https://doi.org/10.3233/978-1-60750-028-5-531",
+     "https://www.semanticscholar.org/paper/9588acb2634d7a19124d6012e0b4f1ea1c9736ea"
+    ]
+   }
+  },
+  "dina_junker": {
+   "want_title": "Cognitive Assessment Models with Few Assumptions, and Connections with Nonparametric Item Response Theory",
+   "checks": [
+    {
+     "source": "crossref",
+     "title": "Cognitive Assessment Models with Few Assumptions, and Connections with Nonparametric Item Response Theory",
+     "authors": [
+      "Junker B",
+      "Sijtsma K"
+     ],
+     "year": 2001,
+     "venue": "Applied Psychological Measurement",
+     "volume": "25",
+     "issue": "3",
+     "pages": "258-272",
+     "url": "https://doi.org/10.1177/01466210122032064",
+     "title_similarity": 1.0,
+     "ok": true
+    }
+   ],
+   "verified": true,
+   "display": {
+    "authors": [
+     "Junker B",
+     "Sijtsma K"
+    ],
+    "year": 2001,
+    "venue": "Applied Psychological Measurement",
+    "url": "https://doi.org/10.1177/01466210122032064",
+    "title": "Cognitive Assessment Models with Few Assumptions, and Connections with Nonparametric Item Response Theory",
+    "links": [
+     "https://doi.org/10.1177/01466210122032064"
+    ]
+   }
+  },
+  "dina_delatorre": {
+   "want_title": "DINA Model and Parameter Estimation: A Didactic",
+   "checks": [
+    {
+     "source": "crossref",
+     "title": "DINA Model and Parameter Estimation: A Didactic",
+     "authors": [
+      "de la Torre J"
+     ],
+     "year": 2009,
+     "venue": "Journal of Educational and Behavioral Statistics",
+     "volume": "34",
+     "issue": "1",
+     "pages": "115-130",
+     "url": "https://doi.org/10.3102/1076998607309474",
+     "title_similarity": 1.0,
+     "ok": true
+    }
+   ],
+   "verified": true,
+   "display": {
+    "authors": [
+     "de la Torre J"
+    ],
+    "year": 2009,
+    "venue": "Journal of Educational and Behavioral Statistics",
+    "url": "https://doi.org/10.3102/1076998607309474",
+    "title": "DINA Model and Parameter Estimation: A Didactic",
+    "links": [
+     "https://doi.org/10.3102/1076998607309474"
+    ]
+   }
+  },
+  "neuralcd": {
+   "want_title": "Neural Cognitive Diagnosis for Intelligent Education Systems",
+   "checks": [
+    {
+     "source": "crossref",
+     "title": "Neural Cognitive Diagnosis for Intelligent Education Systems",
+     "authors": [
+      "Wang F",
+      "Liu Q",
+      "Chen E",
+      "Huang Z",
+      "Chen Y",
+      "Yin Y",
+      "Huang Z",
+      "Wang S"
+     ],
+     "year": 2020,
+     "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+     "volume": "34",
+     "issue": "04",
+     "pages": "6153-6161",
+     "url": "https://doi.org/10.1609/aaai.v34i04.6080",
+     "title_similarity": 1.0,
+     "ok": true
+    },
+    {
+     "source": "arxiv",
+     "title": "Neural Cognitive Diagnosis for Intelligent Education Systems",
+     "authors": [
+      "Wang F",
+      "Liu Q",
+      "Chen E",
+      "Huang Z",
+      "Chen Y",
+      "Yin Y",
+      "Huang Z",
+      "Wang S"
+     ],
+     "year": 2019,
+     "journal_ref": "",
+     "comment": "",
+     "url": "https://arxiv.org/abs/1908.08733",
+     "title_similarity": 1.0,
+     "ok": true
+    }
+   ],
+   "verified": true,
+   "display": {
+    "authors": [
+     "Wang F",
+     "Liu Q",
+     "Chen E",
+     "Huang Z",
+     "Chen Y",
+     "Yin Y",
+     "Huang Z",
+     "Wang S"
+    ],
+    "year": 2020,
+    "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "url": "https://doi.org/10.1609/aaai.v34i04.6080",
+    "title": "Neural Cognitive Diagnosis for Intelligent Education Systems",
+    "links": [
+     "https://doi.org/10.1609/aaai.v34i04.6080",
+     "https://arxiv.org/abs/1908.08733"
+    ]
+   }
+  },
+  "bock_aitkin": {
+   "want_title": "Marginal maximum likelihood estimation of item parameters: Application of an EM algorithm",
+   "checks": [
+    {
+     "source": "crossref",
+     "title": "Marginal Maximum Likelihood Estimation of Item Parameters: Application of an EM Algorithm",
+     "authors": [
+      "Bock R",
+      "Aitkin M"
+     ],
+     "year": 1981,
+     "venue": "Psychometrika",
+     "volume": "46",
+     "issue": "4",
+     "pages": "443-459",
+     "url": "https://doi.org/10.1007/BF02293801",
+     "title_similarity": 1.0,
+     "ok": true
+    }
+   ],
+   "verified": true,
+   "display": {
+    "authors": [
+     "Bock R",
+     "Aitkin M"
+    ],
+    "year": 1981,
+    "venue": "Psychometrika",
+    "url": "https://doi.org/10.1007/BF02293801",
+    "title": "Marginal Maximum Likelihood Estimation of Item Parameters: Application of an EM Algorithm",
+    "links": [
+     "https://doi.org/10.1007/BF02293801"
+    ]
+   }
+  },
+  "bock_mislevy": {
+   "want_title": "Adaptive EAP Estimation of Ability in a Microcomputer Environment",
+   "checks": [
+    {
+     "source": "crossref",
+     "title": "Adaptive EAP Estimation of Ability in a Microcomputer Environment",
+     "authors": [
+      "Bock R",
+      "Mislevy R"
+     ],
+     "year": 1982,
+     "venue": "Applied Psychological Measurement",
+     "volume": "6",
+     "issue": "4",
+     "pages": "431-444",
+     "url": "https://doi.org/10.1177/014662168200600405",
+     "title_similarity": 1.0,
+     "ok": true
+    }
+   ],
+   "verified": true,
+   "display": {
+    "authors": [
+     "Bock R",
+     "Mislevy R"
+    ],
+    "year": 1982,
+    "venue": "Applied Psychological Measurement",
+    "url": "https://doi.org/10.1177/014662168200600405",
+    "title": "Adaptive EAP Estimation of Ability in a Microcomputer Environment",
+    "links": [
+     "https://doi.org/10.1177/014662168200600405"
+    ]
+   }
+  },
+  "weiss_kingsbury": {
+   "want_title": "Application of computerized adaptive testing to educational problems",
+   "checks": [
+    {
+     "source": "crossref",
+     "title": "APPLICATION OF COMPUTERIZED ADAPTIVE TESTING TO EDUCATIONAL PROBLEMS",
+     "authors": [
+      "WEISS D",
+      "KINGSBURY G"
+     ],
+     "year": 1984,
+     "venue": "Journal of Educational Measurement",
+     "volume": "21",
+     "issue": "4",
+     "pages": "361-375",
+     "url": "https://doi.org/10.1111/j.1745-3984.1984.tb01040.x",
+     "title_similarity": 1.0,
+     "ok": true
+    }
+   ],
+   "verified": true,
+   "display": {
+    "authors": [
+     "WEISS D",
+     "KINGSBURY G"
+    ],
+    "year": 1984,
+    "venue": "Journal of Educational Measurement",
+    "url": "https://doi.org/10.1111/j.1745-3984.1984.tb01040.x",
+    "title": "APPLICATION OF COMPUTERIZED ADAPTIVE TESTING TO EDUCATIONAL PROBLEMS",
+    "links": [
+     "https://doi.org/10.1111/j.1745-3984.1984.tb01040.x"
+    ]
+   }
+  },
+  "mizumoto": {
+   "want_title": "Exploring the potential of using an AI language model for automated essay scoring",
+   "checks": [
+    {
+     "source": "crossref",
+     "title": "Exploring the potential of using an AI language model for automated essay scoring",
+     "authors": [
+      "Mizumoto A",
+      "Eguchi M"
+     ],
+     "year": 2023,
+     "venue": "Research Methods in Applied Linguistics",
+     "volume": "2",
+     "issue": "2",
+     "pages": "100050",
+     "url": "https://doi.org/10.1016/j.rmal.2023.100050",
+     "title_similarity": 1.0,
+     "ok": true
+    }
+   ],
+   "verified": true,
+   "display": {
+    "authors": [
+     "Mizumoto A",
+     "Eguchi M"
+    ],
+    "year": 2023,
+    "venue": "Research Methods in Applied Linguistics",
+    "url": "https://doi.org/10.1016/j.rmal.2023.100050",
+    "title": "Exploring the potential of using an AI language model for automated essay scoring",
+    "links": [
+     "https://doi.org/10.1016/j.rmal.2023.100050"
+    ]
+   }
+  },
+  "kasneci": {
+   "want_title": "ChatGPT for good? On opportunities and challenges of large language models for education",
+   "checks": [
+    {
+     "source": "crossref",
+     "title": "ChatGPT for good? On opportunities and challenges of large language models for education",
+     "authors": [
+      "Kasneci E",
+      "Sessler K",
+      "Küchemann S",
+      "Bannert M",
+      "Dementieva D",
+      "Fischer F",
+      "Gasser U",
+      "Groh G",
+      "Günnemann S",
+      "Hüllermeier E",
+      "Krusche S",
+      "Kutyniok G",
+      "Michaeli T",
+      "Nerdel C",
+      "Pfeffer J",
+      "Poquet O",
+      "Sailer M",
+      "Schmidt A",
+      "Seidel T",
+      "Stadler M",
+      "Weller J",
+      "Kuhn J",
+      "Kasneci G"
+     ],
+     "year": 2023,
+     "venue": "Learning and Individual Differences",
+     "volume": "103",
+     "issue": null,
+     "pages": "102274",
+     "url": "https://doi.org/10.1016/j.lindif.2023.102274",
+     "title_similarity": 1.0,
+     "ok": true
+    }
+   ],
+   "verified": true,
+   "display": {
+    "authors": [
+     "Kasneci E",
+     "Sessler K",
+     "Küchemann S",
+     "Bannert M",
+     "Dementieva D",
+     "Fischer F",
+     "Gasser U",
+     "Groh G",
+     "Günnemann S",
+     "Hüllermeier E",
+     "Krusche S",
+     "Kutyniok G",
+     "Michaeli T",
+     "Nerdel C",
+     "Pfeffer J",
+     "Poquet O",
+     "Sailer M",
+     "Schmidt A",
+     "Seidel T",
+     "Stadler M",
+     "Weller J",
+     "Kuhn J",
+     "Kasneci G"
+    ],
+    "year": 2023,
+    "venue": "Learning and Individual Differences",
+    "url": "https://doi.org/10.1016/j.lindif.2023.102274",
+    "title": "ChatGPT for good? On opportunities and challenges of large language models for education",
+    "links": [
+     "https://doi.org/10.1016/j.lindif.2023.102274"
+    ]
+   }
+  },
+  "ellipse": {
+   "want_title": "The English Language Learner Insight, Proficiency and Skills Evaluation (ELLIPSE) Corpus",
+   "checks": [
+    {
+     "source": "crossref",
+     "title": "The English Language Learner Insight, Proficiency and Skills Evaluation (ELLIPSE) Corpus",
+     "authors": [
+      "Crossley S",
+      "Tian Y",
+      "Baffour P",
+      "Franklin A",
+      "Kim Y",
+      "Morris W",
+      "Benner M",
+      "Picou A",
+      "Boser U"
+     ],
+     "year": 2023,
+     "venue": "International Journal of Learner Corpus Research",
+     "volume": "9",
+     "issue": "2",
+     "pages": "248-269",
+     "url": "https://doi.org/10.1075/ijlcr.22026.cro",
+     "title_similarity": 1.0,
+     "ok": true
+    }
+   ],
+   "verified": true,
+   "display": {
+    "authors": [
+     "Crossley S",
+     "Tian Y",
+     "Baffour P",
+     "Franklin A",
+     "Kim Y",
+     "Morris W",
+     "Benner M",
+     "Picou A",
+     "Boser U"
+    ],
+    "year": 2023,
+    "venue": "International Journal of Learner Corpus Research",
+    "url": "https://doi.org/10.1075/ijlcr.22026.cro",
+    "title": "The English Language Learner Insight, Proficiency and Skills Evaluation (ELLIPSE) Corpus",
+    "links": [
+     "https://doi.org/10.1075/ijlcr.22026.cro"
+    ]
+   }
+  },
+  "mmla_ochoa": {
+   "want_title": "Augmenting Learning Analytics with Multimodal Sensory Data",
+   "checks": [
+    {
+     "source": "crossref",
+     "title": "Editorial: Augmenting Learning Analytics with Multimodal Sensory Data​",
+     "authors": [
+      "Ochoa X",
+      "Worsley M"
+     ],
+     "year": 2016,
+     "venue": "Journal of Learning Analytics",
+     "volume": "3",
+     "issue": "2",
+     "pages": "213-219",
+     "url": "https://doi.org/10.18608/jla.2016.32.10",
+     "title_similarity": 0.921,
+     "ok": true
+    }
+   ],
+   "verified": true,
+   "display": {
+    "authors": [
+     "Ochoa X",
+     "Worsley M"
+    ],
+    "year": 2016,
+    "venue": "Journal of Learning Analytics",
+    "url": "https://doi.org/10.18608/jla.2016.32.10",
+    "title": "Editorial: Augmenting Learning Analytics with Multimodal Sensory Data​",
+    "links": [
+     "https://doi.org/10.18608/jla.2016.32.10"
+    ]
+   }
+  },
+  "engagement_dmello": {
+   "want_title": "Advanced, Analytic, Automated (AAA) Measurement of Engagement During Learning",
+   "checks": [
+    {
+     "source": "crossref",
+     "title": "Advanced, Analytic, Automated (AAA) Measurement of Engagement During Learning",
+     "authors": [
+      "D'Mello S",
+      "Dieterle E",
+      "Duckworth A"
+     ],
+     "year": 2017,
+     "venue": "Educational Psychologist",
+     "volume": "52",
+     "issue": "2",
+     "pages": "104-123",
+     "url": "https://doi.org/10.1080/00461520.2017.1281747",
+     "title_similarity": 1.0,
+     "ok": true
+    }
+   ],
+   "verified": true,
+   "display": {
+    "authors": [
+     "D'Mello S",
+     "Dieterle E",
+     "Duckworth A"
+    ],
+    "year": 2017,
+    "venue": "Educational Psychologist",
+    "url": "https://doi.org/10.1080/00461520.2017.1281747",
+    "title": "Advanced, Analytic, Automated (AAA) Measurement of Engagement During Learning",
+    "links": [
+     "https://doi.org/10.1080/00461520.2017.1281747"
+    ]
+   }
+  },
+  "daisee": {
+   "want_title": "DAiSEE: Towards User Engagement Recognition in the Wild",
+   "checks": [
+    {
+     "source": "arxiv",
+     "title": "DAiSEE: Towards User Engagement Recognition in the Wild",
+     "authors": [
+      "Gupta A",
+      "D'Cunha A",
+      "Awasthi K",
+      "Balasubramanian V"
+     ],
+     "year": 2016,
+     "journal_ref": "",
+     "comment": "12 pages, 14 figures, 5 tables",
+     "url": "https://arxiv.org/abs/1609.01885",
+     "title_similarity": 1.0,
+     "ok": true
+    }
+   ],
+   "verified": true,
+   "display": {
+    "authors": [
+     "Gupta A",
+     "D'Cunha A",
+     "Awasthi K",
+     "Balasubramanian V"
+    ],
+    "year": 2016,
+    "venue": "arXiv 预印本",
+    "url": "https://arxiv.org/abs/1609.01885",
+    "title": "DAiSEE: Towards User Engagement Recognition in the Wild",
+    "links": [
+     "https://arxiv.org/abs/1609.01885"
+    ]
+   }
+  },
+  "barrett_emotion": {
+   "want_title": "Emotional Expressions Reconsidered: Challenges to Inferring Emotion From Human Facial Movements",
+   "checks": [
+    {
+     "source": "crossref",
+     "title": "Emotional Expressions Reconsidered: Challenges to Inferring Emotion From Human Facial Movements",
+     "authors": [
+      "Barrett L",
+      "Adolphs R",
+      "Marsella S",
+      "Martinez A",
+      "Pollak S"
+     ],
+     "year": 2019,
+     "venue": "Psychological Science in the Public Interest",
+     "volume": "20",
+     "issue": "1",
+     "pages": "1-68",
+     "url": "https://doi.org/10.1177/1529100619832930",
+     "title_similarity": 1.0,
+     "ok": true
+    }
+   ],
+   "verified": true,
+   "display": {
+    "authors": [
+     "Barrett L",
+     "Adolphs R",
+     "Marsella S",
+     "Martinez A",
+     "Pollak S"
+    ],
+    "year": 2019,
+    "venue": "Psychological Science in the Public Interest",
+    "url": "https://doi.org/10.1177/1529100619832930",
+    "title": "Emotional Expressions Reconsidered: Challenges to Inferring Emotion From Human Facial Movements",
+    "links": [
+     "https://doi.org/10.1177/1529100619832930"
+    ]
+   }
+  },
+  "eyetracking_review": {
+   "want_title": "A systematic review of eye tracking research on multimedia learning",
+   "checks": [
+    {
+     "source": "crossref",
+     "title": "A systematic review of eye tracking research on multimedia learning",
+     "authors": [
+      "Alemdag E",
+      "Cagiltay K"
+     ],
+     "year": 2018,
+     "venue": "Computers &amp; Education",
+     "volume": "125",
+     "issue": null,
+     "pages": "413-428",
+     "url": "https://doi.org/10.1016/j.compedu.2018.06.023",
+     "title_similarity": 1.0,
+     "ok": true
+    }
+   ],
+   "verified": true,
+   "display": {
+    "authors": [
+     "Alemdag E",
+     "Cagiltay K"
+    ],
+    "year": 2018,
+    "venue": "Computers &amp; Education",
+    "url": "https://doi.org/10.1016/j.compedu.2018.06.023",
+    "title": "A systematic review of eye tracking research on multimedia learning",
+    "links": [
+     "https://doi.org/10.1016/j.compedu.2018.06.023"
+    ]
+   }
+  },
+  "teacher_discourse": {
+   "want_title": "Toward Automated Feedback on Teacher Discourse to Enhance Teacher Learning",
+   "checks": [
+    {
+     "source": "crossref",
+     "title": "Toward Automated Feedback on Teacher Discourse to Enhance Teacher Learning",
+     "authors": [
+      "Jensen E",
+      "Dale M",
+      "Donnelly P",
+      "Stone C",
+      "Kelly S",
+      "Godley A",
+      "D'Mello S"
+     ],
+     "year": 2020,
+     "venue": "Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems",
+     "volume": null,
+     "issue": null,
+     "pages": "1-13",
+     "url": "https://doi.org/10.1145/3313831.3376418",
+     "title_similarity": 1.0,
+     "ok": true
+    }
+   ],
+   "verified": true,
+   "display": {
+    "authors": [
+     "Jensen E",
+     "Dale M",
+     "Donnelly P",
+     "Stone C",
+     "Kelly S",
+     "Godley A",
+     "D'Mello S"
+    ],
+    "year": 2020,
+    "venue": "Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems",
+    "url": "https://doi.org/10.1145/3313831.3376418",
+    "title": "Toward Automated Feedback on Teacher Discourse to Enhance Teacher Learning",
+    "links": [
+     "https://doi.org/10.1145/3313831.3376418"
+    ]
+   }
+  },
+  "baker_bias": {
+   "want_title": "Algorithmic Bias in Education",
+   "checks": [
+    {
+     "source": "crossref",
+     "title": "Algorithmic Bias in Education",
+     "authors": [
+      "Baker R",
+      "Hawn A"
+     ],
+     "year": 2022,
+     "venue": "International Journal of Artificial Intelligence in Education",
+     "volume": "32",
+     "issue": "4",
+     "pages": "1052-1092",
+     "url": "https://doi.org/10.1007/s40593-021-00285-9",
+     "title_similarity": 1.0,
+     "ok": true
+    }
+   ],
+   "verified": true,
+   "display": {
+    "authors": [
+     "Baker R",
+     "Hawn A"
+    ],
+    "year": 2022,
+    "venue": "International Journal of Artificial Intelligence in Education",
+    "url": "https://doi.org/10.1007/s40593-021-00285-9",
+    "title": "Algorithmic Bias in Education",
+    "links": [
+     "https://doi.org/10.1007/s40593-021-00285-9"
+    ]
+   }
+  }
+ }
+}

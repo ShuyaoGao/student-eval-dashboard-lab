@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software or its teaching materials, please cite it as below."
+title: "学生成长全景评价平台 / Student Evaluation Dashboard Lab: a teaching demo of knowledge tracing, cognitive diagnosis, adaptive testing and privacy-aware dashboards on synthetic data"
+abstract: "A static, offline-capable web dashboard for a fictional school built entirely on synthetic data. It shows knowledge tracing (BKT, PFA, a small DKT-style RNN), DINA cognitive diagnosis, 2PL IRT calibration with a computerized adaptive test, role-based reports with different levels of detail, a methods wall with verified references, and a compliance page with verified statutory texts. Privacy protection is a design goal. Part of the AI Teaching Demos series."
+type: software
+authors:
+  - family-names: "Gao"
+    given-names: "Shuyao"
+    email: "gaoshuyao.mk@gmail.com"
+    affiliation: "aSSIST University (Seoul School of Integrated Sciences and Technologies)"
+version: "1.0"
+license: MIT
+repository-code: "https://github.com/ShuyaoGao/student-eval-dashboard-lab"
+url: "https://shuyaogao.github.io/student-eval-dashboard-lab/"
+keywords:
+  - knowledge tracing
+  - cognitive diagnosis
+  - item response theory
+  - computerized adaptive testing
+  - learning analytics
+  - privacy
+  - dashboard
+  - teaching demo

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>学生成长全景评价平台 · 展示版</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="screen.css">
+</head>
+<body>
+<header id="top">
+  <div class="brand" title="学生成长全景评价平台（展示版）">
+    <span class="logo"><i></i></span>
+    <div><b>学生成长全景评价平台</b><small>STUDENT GROWTH PANORAMA · 展示版 {{BUILD}}</small></div>
+  </div>
+  <nav id="tabs" aria-label="模块"></nav>
+  <div class="top-right">
+    <span class="synthetic-badge" id="syn-badge" title="页面上所有学生、学校、成绩、作答记录都是程序按固定随机种子生成的虚构数据">演示数据 · 合成 · 仅作概念演示</span>
+    <button class="tbtn" id="tour-btn" data-tour-btn title="自动巡演：在数据大屏和各页面之间自动轮播（按 P 开关）">巡演</button>
+    <button class="tbtn" id="big-btn" title="投影比例：左右两栏从约 45:55 调到约 35:65，方便投影（按 B 开关）">投影比例</button>
+    <button class="tbtn" data-static-btn title="静态模式：关闭动画，给配置较低的电脑用（按 S 开关）">静态</button>
+    <button class="tbtn" id="help-btn" title="操作说明与推荐汇报路线（按 H）">?</button>
+    <button class="tbtn" id="exit-btn" title="停止全部动画与计时器并结束">退出</button>
+  </div>
+</header>
+<main id="view"></main>
+<footer id="credits"></footer>
+
+<div class="modal" id="help-modal" role="dialog" aria-label="操作说明">
+  <div class="box"><div class="help-box" id="help-body"></div></div>
+</div>
+<div class="modal" id="report-modal" role="dialog" aria-label="一页报告">
+  <div class="box">
+    <div class="bar"><button class="btn" id="print-btn" title="用浏览器打印，可另存为 PDF">打印 / 另存为 PDF</button><button class="btn" id="close-report">关闭</button></div>
+    <div id="report-body"></div>
+  </div>
+</div>
+<div id="ended"><div><p>已停止运行，所有计算都已结束，可以直接关闭这个标签页。</p><p class="note">离线版是纯静态网页，没有后台进程。</p></div></div>
+
+<script src="data.js"></script>
+<script src="vendor/echarts/echarts.min.js"></script>
+<script src="charts.js"></script>
+<script src="app_core.js"></script>
+<script src="view_cockpit.js"></script>
+<script src="view_student.js"></script>
+<script src="view_homework.js"></script>
+<script src="view_psych.js"></script>
+<script src="view_reports.js"></script>
+<script src="view_methods.js"></script>
+<script src="view_compliance.js"></script>
+<script src="view_screen.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

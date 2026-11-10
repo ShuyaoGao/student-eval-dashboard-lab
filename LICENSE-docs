@@ -1,0 +1,38 @@
+Documentation and teaching materials license
+============================================
+
+Copyright (c) 2026 Shuyao Gao
+Contact: gaoshuyao.mk@gmail.com
+
+Unless otherwise noted, the documentation and teaching materials in this
+repository are licensed under the Creative Commons Attribution 4.0
+International License (CC BY 4.0).
+
+  Summary: https://creativecommons.org/licenses/by/4.0/
+  Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+
+"Documentation and teaching materials" means:
+  - the prose of README.md, DEMO_GUIDE.md and REQUIREMENTS.md;
+  - the text, charts and figures shown by the web demo (app/ and web/),
+    including the help overlay, method cards and report views;
+  - screenshots and animations under demo/screenshots/ and app/assets/.
+
+Source code (Python, JavaScript, HTML/CSS and build scripts) is licensed
+separately under the MIT License, see LICENSE.
+
+Not covered by this file:
+  - Apache ECharts (app/vendor/echarts/, web/vendor/echarts/) is licensed
+    under the Apache License 2.0; see THIRD_PARTY.md and the LICENSE.txt /
+    NOTICE.txt files next to the library.
+  - Quoted statutory texts (EU regulations, PRC laws and regulations) are
+    reproduced for reference with links to their official sources.
+  - Titles and bibliographic data of cited papers belong to their authors
+    and publishers.
+
+All student, school and score data shown in the demo are synthetic
+(program-generated with a fixed random seed) and are for concept
+demonstration only.
+
+Suggested attribution:
+  "Student Evaluation Dashboard Lab" by Shuyao Gao, CC BY 4.0,
+  https://github.com/ShuyaoGao/student-eval-dashboard-lab

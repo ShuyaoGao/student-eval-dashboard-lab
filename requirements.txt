@@ -1,0 +1,4 @@
+# 建 venv 时用 --system-site-packages 复用全局包（版本与本机全局 Python 一致，避免 .pyd 被智能应用控制拦截）：
+#   numpy 2.5.1、pandas 3.0.5、scikit-learn 1.9.0、scipy 1.18.0、PyYAML 6.0.3、playwright 1.63.0（只用本机 Edge）
+# 这里只列 venv 里额外安装的包。
+pytest>=8
